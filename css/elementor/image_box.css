@@ -1,0 +1,17 @@
+.elementor .ahura_image_box
+{
+	padding: 20px 10px;
+	border-radius: 5px;
+}
+.elementor .ahura_image_box .right
+{
+	text-align: right;
+}
+.elementor .ahura_image_box .center
+{
+	text-align: center;
+}
+.elementor .ahura_image_box .left
+{
+	text-align: left;
+}

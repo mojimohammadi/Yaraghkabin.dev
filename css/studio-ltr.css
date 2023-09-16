@@ -1,0 +1,13 @@
+.float-options {
+    justify-content: end;
+}
+
+.show-demo-options {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.ahura-studio-filter-tab-items .filter-item-btns a .btn-progress {
+    right: auto;
+    left: 0;
+}

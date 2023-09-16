@@ -1,0 +1,25 @@
+.countdownbox span {
+    font-size: 20px;
+}
+.countdownbox {
+    width: 100%;
+    padding: 100px 30px;
+    height: 350px;
+    text-align: center;
+    overflow: hidden;
+}
+#mwtimercountdown{
+	margin:20px auto;
+}
+
+#mwtimercountdown li{
+	width:25%;
+	float:left;
+	color: white;
+	font-size:18px;
+}
+#mwtimercountdown li span{
+	display:block;
+	color: white;
+	font-size:14px;
+}

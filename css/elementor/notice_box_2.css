@@ -1,0 +1,25 @@
+.notice_box_2
+{
+    border-radius: 50px;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr 6fr;
+}
+.notice_box_2 .icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notice_box_2 .content
+{
+    background-color: #fd5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.notice_box_2 .content .link
+{
+    padding: 10px 30px;
+}

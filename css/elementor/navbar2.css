@@ -1,0 +1,28 @@
+body:not(.elementor-editor-active) .ahura-mobile-navbar-2 {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.ahura-mobile-navbar-2 .navbar-2 .navbar-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ahura-mobile-navbar-2 .navbar-2 .navbar-items .nav-item {
+    text-align: center;
+    flex: 1 0 0;
+}
+
+.ahura-mobile-navbar-2 .navbar-2 .navbar-items .nav-item a i {
+    position: relative;
+    top: 2px;
+}
+
+.ahura-mobile-navbar-2 .navbar-2 .navbar-items .nav-item a,
+.ahura-mobile-navbar-2 .navbar-2 .navbar-items .nav-item a i {
+    display: inline-block;
+    transition: ease 0.3s;
+}

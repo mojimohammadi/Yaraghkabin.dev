@@ -1,0 +1,28 @@
+.information-box-9 {
+    transition: ease .3s;
+    overflow: hidden;
+}
+
+.information-box-9-wrap .box-icon-wrap {
+    text-align: center;
+}
+
+.information-box-9-wrap .box-icon-wrap .box-icon {
+    margin: 0 auto -45px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.information-box-9-wrap .box-icon-wrap .box-icon i {
+    width: 100%;
+}
+
+.information-box-9-wrap .box-icon-wrap .box-icon svg {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.information-box-9-wrap .box-circle {
+    margin: 0 auto 0 auto;
+}

@@ -1,0 +1,30 @@
+body:not(.elementor-editor-active) .ahura-mobile-navbar-1 {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+body:not(.elementor-editor-active) .ahura-mobile-navbar-primary .ahura-mobile-navbar-1 {
+    display: block;
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items .nav-item {
+    flex: 1 0 0;
+    text-align: center;
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items .nav-item a {
+    position: relative;
+    top: 4px;
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items .nav-item a i {
+    transition: ease .3s;
+}

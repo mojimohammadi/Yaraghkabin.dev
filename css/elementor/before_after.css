@@ -1,0 +1,59 @@
+.ahura-image-before-after {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin: 0 auto 0 auto;
+}
+
+.ahura-image-before-after,
+.ahura-image-before-after img,
+.ahura-image-before-after .mover {
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ahura-image-before-after .img-left {
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.ahura-image-before-after .mover {
+  position:absolute;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.ahura-image-before-after .mover:before,
+.ahura-image-before-after .mover:after {
+  position: absolute;
+  left: 50%;
+  content: "";
+  background: #fff;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.ahura-image-before-after .mover:before {
+  top: 0;
+  transform:translateX(-50%);
+  width: 2px;
+  height: 100%;
+}
+
+.ahura-image-before-after .mover:after {
+  top: 50%;
+  transform:translate(-50%, -50%);
+  width: 7px;
+  height: 33%;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #00000040;
+}

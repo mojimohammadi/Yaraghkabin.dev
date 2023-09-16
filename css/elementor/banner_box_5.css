@@ -1,0 +1,22 @@
+.ahura_element_banner_box_5.blur
+{
+    backdrop-filter: blur(5px);
+}
+.ahura_element_banner_box_5 .image
+{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+.ahura_element_banner_box_5 .data
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px 0;
+}
+.ahura_element_banner_box_5 .icon
+{
+    position: absolute;
+    left: 15px;
+}

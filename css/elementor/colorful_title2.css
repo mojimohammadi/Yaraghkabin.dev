@@ -1,0 +1,36 @@
+.colorful-title2 .colorful-title-items {
+    position: relative;
+    padding: 1rem;
+}
+
+.colorful-title2 .colorful-title-items .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.colorful-title2 .colorful-title-items .dot-1,
+.colorful-title2 .colorful-title-items .dot-2 {
+    top: -7px;
+}
+
+.colorful-title2 .colorful-title-items .dot-1 {
+    right: -7px;
+}
+
+.colorful-title2 .colorful-title-items .dot-2 {
+    left: -7px;
+}
+
+.colorful-title2 .colorful-title-items .dot-3,
+.colorful-title2 .colorful-title-items .dot-4 {
+    bottom: -7px;
+}
+
+.colorful-title2 .colorful-title-items .dot-3 {
+    right: -7px;
+}
+
+.colorful-title2 .colorful-title-items .dot-4 {
+    left: -7px;
+}

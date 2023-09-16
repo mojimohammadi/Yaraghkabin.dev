@@ -1,0 +1,16 @@
+.videbox_content .icon_player {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+    transition-duration: 0.2s;
+    opacity: .5;
+}
+.videbox_content:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.elementor .ahura_element_information_box_2 {
+	margin-top: 30px
+}
+.elementor .ahura_element_information_box_2::before
+{
+	content: '';
+    display: block;
+    background: white;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+	box-shadow: 0 0 20px 4px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+.elementor .ahura_element_information_box_2 .icon-box
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 50px;
+}
+.elementor .ahura_element_information_box_2 .icon-box .icon-wrapper
+{
+	z-index: 100;
+    position: absolute;
+    top: 0;
+    transform: translateY(-20%);
+	background: white;
+    border-radius: 50%;
+    padding: 20px;
+}

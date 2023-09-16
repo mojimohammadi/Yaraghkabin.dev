@@ -1,0 +1,45 @@
+.postbox5 {
+    width: 100%;
+}
+
+.postbox5 p {
+    padding: 20px;
+}
+
+.postbox5 .cat-name {
+    width: 89%;
+    line-height: 40px;
+    display: inline-block;
+    border-right: 4px solid;
+    padding-right: 1em;
+}
+
+.postbox5 .cat-more-link {
+    text-align: center;
+    width: 9%;
+    float: left;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1001px) {
+    .postbox5 .cat-name {
+        width: 70%;
+    }
+
+    .postbox5 .cat-more-link {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .postbox5 .cat-name {
+        width: 100%;
+    }
+
+    .postbox5 .cat-more-link {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

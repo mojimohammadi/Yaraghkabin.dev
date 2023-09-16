@@ -1,0 +1,41 @@
+.testimonial-box5 {
+    position: relative;
+    transition: ease all .4s;
+}
+
+.testimonial-box5 .head {
+    display: flex;
+}
+
+.testimonial-box5 .stars {
+    color: #dddddd;
+}
+
+.testimonial-box5 .stars span {
+    font-size: 13px;
+}
+
+.testimonial-box5 .head .avatar {
+    width: 27%;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-box5 .head .meta {
+    width: 73%;
+}
+
+.testimonial-box5 .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.testimonial-box5 .rate {
+    display: inline-block;
+    text-align: left;
+}
+
+.testimonial-box5 .rate .num {
+    font-size: 15px;
+}

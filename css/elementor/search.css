@@ -1,0 +1,43 @@
+.ahura-search-form-element {
+    position: relative;
+}
+
+.ahura-search-form-element button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    box-shadow: none;
+    width: 50px;
+    height: 100%;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 19px;
+    color: #9e9fb1;
+}
+
+.ahura-search-form-element input[type=text] {
+    box-shadow: none;
+}
+
+.ahura-search-form-element #ajax_search_loading {
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.ahura-search-form-element #ajax_search_loading.show-loader {
+    opacity: 1;
+}
+
+.ahura-search-form-element.with-btn #ajax_search_loading {
+    width: 110px;
+}

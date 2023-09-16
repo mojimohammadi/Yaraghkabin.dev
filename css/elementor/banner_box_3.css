@@ -1,0 +1,28 @@
+.elementor .ahura_element_banner_box_3
+{
+	position: relative;
+	height: 300px;
+	display: block;
+	overflow: hidden;
+}
+.elementor .ahura_element_banner_box_3 .data
+{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+	transition: all .3s;
+}
+.elementor .ahura_element_banner_box_3:hover .data
+{
+	height: 100%;
+}
+body.rtl .elementor .ahura_element_banner_box_3 .data .title
+{
+	border-left: 3px solid;
+	margin-left: 10px;
+    padding-left: 10px;
+}

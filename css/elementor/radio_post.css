@@ -1,0 +1,54 @@
+/*Radio Post Element*/
+.radio-post-box {
+    display: flex;
+}
+
+.radio-post-right {
+    width: 50%;
+}
+
+.radio-post-left {
+    width: 50%;
+}
+
+.radio-post-right h2 {
+    line-height: 1.9em;
+    display: block;
+    font-size: 32px;
+    color: #35495c;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.radio-post-right h3 {
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 7px;
+}
+
+.radio-post-right a {
+    background-color: #2171d4;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    margin: 20px auto 0 auto;
+    display: table;
+}
+
+@media screen and (max-width:500px) {
+    .radio-post-box {
+        flex-direction: column;
+    }
+
+    .radio-post-right,.radio-post-left{
+        width: 100%;
+        margin-top: 15px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .radio-post-right,.radio-post-left{
+        width: 100%;
+      }
+}

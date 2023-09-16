@@ -1,0 +1,31 @@
+.portfolio ul {
+    margin-bottom: 20px;
+}
+.portfolio ul li {
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: #333;
+}
+.portfolio ul li:last-child {
+    margin-left: 0;
+}
+.portfolio .images {
+	margin-bottom: 20px;
+}
+.portfolio ul li:nth-of-type(3),
+.portfolio ul li:nth-of-type(4),
+.portfolio ul li:nth-of-type(5) {
+    flex-grow: 2
+}
+.portfolio .images span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 50%;
+    margin: 0 10px 0 10px;
+}

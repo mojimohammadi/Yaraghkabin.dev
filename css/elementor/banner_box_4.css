@@ -1,0 +1,24 @@
+.elementor .ahura_element_banner_box_4
+{
+	min-height: 170px;
+	display: block;
+    border-radius: 10px;
+	position: relative;
+}
+.elementor .ahura_element_banner_box_4 .data
+{
+	position: absolute;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 90%;
+    border-radius: 30px;
+	left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    height: 50px;
+}
+.elementor .ahura_element_banner_box_4 .data > div
+{
+	text-align: center;
+}

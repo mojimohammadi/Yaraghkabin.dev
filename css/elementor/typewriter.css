@@ -1,0 +1,47 @@
+.typewriter-box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typewriter-box-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.typewriter-box-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Typewriter__cursor {
+    -webkit-animation: Typewriter-cursor 1s infinite;
+    animation: Typewriter-cursor 1s infinite;
+    margin-left: 1px
+}
+
+@-webkit-keyframes Typewriter-cursor {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes Typewriter-cursor {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}

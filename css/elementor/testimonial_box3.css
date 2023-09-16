@@ -1,0 +1,28 @@
+.testimonial-box3
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.1);
+}
+.testimonial-box3 .avatar
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+.testimonial-box3 .name
+{
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+}
+.testimonial-box3 .content
+{
+    margin-top: 15px;
+}

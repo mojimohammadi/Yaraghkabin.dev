@@ -1,0 +1,21 @@
+.price-table-1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.price-table-1 .price div {
+    display: inline-block;
+}
+
+.price-table-1 .price .discount {
+    display: block;
+}
+
+.price-table-1 .title {
+    position: relative;
+}
+
+.price-table-1 .buttons a {
+    display: inline-block;
+    width: 100%;
+}

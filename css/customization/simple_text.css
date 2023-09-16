@@ -1,0 +1,66 @@
+.ahura_customize_simple_text_wrapper
+{
+    position: relative;
+}
+.ahura_customize_simple_text_wrapper input,
+.ahura_customize_simple_text_wrapper textarea
+{
+    box-shadow: none;
+    border-color: #d4d4d4;
+    position: relative;
+    z-index: 100;
+    padding: 5px;
+    transition: border-color .4s;
+}
+.ahura_customize_simple_text_wrapper textarea
+{
+    display: block;
+}
+.ahura_customize_simple_text_wrapper label
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .2s;
+    z-index: 100;
+}
+.ahura_customize_simple_text_wrapper.ahura_rtl_mode label
+{
+    right: 15px;
+}
+.ahura_customize_simple_text_wrapper.ahura_ltr_mode label
+{
+    left: 15px;
+}
+.ahura_customize_simple_text_wrapper label::before
+{
+    content: '';
+    display: block;
+    width: 115%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.ahura_customize_simple_text_wrapper.ahura_rtl_mode label::before
+{
+    right: -5px;
+}
+.ahura_customize_simple_text_wrapper.ahura_ltr_mode label::before
+{
+    left: -5px;
+}
+.ahura_customize_simple_text_wrapper input:focus,
+.ahura_customize_simple_text_wrapper textarea:focus
+{
+    border-color: #1e73be;
+}
+.ahura_customize_simple_text_wrapper input:focus ~ label,
+.ahura_customize_simple_text_wrapper textarea:focus ~ label,
+.ahura_customize_simple_text_wrapper input[value]:not([value='']) ~ label,
+.ahura_customize_simple_text_wrapper textarea[value]:not([value='']) ~ label
+{
+    top: 0;
+}

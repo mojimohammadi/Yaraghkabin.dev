@@ -1,0 +1,54 @@
+.countdown3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.countdown3 > div {
+    width: 100%;
+}
+
+body:not([class*="elementor-editor"]) .countdown3 > div {
+    display: none;
+}
+
+.countdown3 .counter .countdown-tpl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countdown3 .counter .countdown-tpl .time-down {
+    width: 25%;
+}
+
+.countdown3 .counter .end-content {
+    display: none;
+    width: 100%;
+}
+
+.countdown3 .date {
+    display: block;
+}
+
+.countdown3 .date div {
+    display: inline-block;
+}
+
+.countdown3 .buttons a {
+    display: block;
+    transition: ease all .3s;
+}
+
+.countdown3 .divider-wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown3 .divider-wrap .divider {
+    text-align: center;
+}

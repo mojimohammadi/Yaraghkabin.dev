@@ -1,0 +1,25 @@
+.imgbox {
+    width: 100%;
+    display: block;
+    background-size: 115px;
+    background-position: center bottom;
+    text-align: center;
+    -webkit-transition: background-size 1s;
+    transition: background-size 1s;
+    padding: 20px 0 100px;
+    background-repeat: no-repeat;
+}
+
+.imgbox:hover {
+    background-size: 200px;
+}
+
+.imgbox p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.imgbox span {
+    font-size: 15px;
+}

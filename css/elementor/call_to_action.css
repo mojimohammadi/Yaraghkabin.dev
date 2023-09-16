@@ -1,0 +1,20 @@
+.call_to_action .cta_image {
+    width: 100%;
+}
+.call_to_action .cta_content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.cta_content > div {
+    margin-bottom: 10px;
+}
+.cta_content .cta_btn {
+    margin-top: 20px;
+}
+.call_to_action .cta_content .cta_btn a {
+    padding: 10px 20px;
+}

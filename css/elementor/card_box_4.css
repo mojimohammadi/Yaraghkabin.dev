@@ -1,0 +1,54 @@
+.ahura_element_card_box_4 {
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+}
+
+.ahura_element_card_box_4 .ah-label-wrapper {
+    width: 45px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.ahura_element_card_box_4 .ah-label-wrapper .ah-label {
+    writing-mode: sideways-lr;
+    color: white;
+}
+
+.ahura_element_card_box_4 .ah-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ahura_element_card_box_4 .ah-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+}
+
+.ahura_element_card_box_4 .ah-value {
+    font-size: 60px;
+    margin-top: 20px;
+    color: #333c39;
+}
+
+.ahura_element_card_box_4 .ah-title {
+    font-size: 18px;
+}
+
+.ahura_element_card_box_4 .ah-description {
+    font-size: 14px;
+    margin-top: 20px;
+}

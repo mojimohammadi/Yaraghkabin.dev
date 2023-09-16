@@ -1,0 +1,40 @@
+.elementor .ahura_element_information_box_4
+{
+	position: relative;
+	padding: 25px;
+}
+.elementor .ahura_element_information_box_4::after
+{
+	content: '';
+	pointer-events: none;
+    display: block;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 3px solid white;
+    transform: translate(-50%, -50%);
+}
+.elementor .ahura_element_information_box_4 .btn-wrapper
+{
+	display: flex;
+	margin-top: 20px;
+}
+.elementor .ahura_element_information_box_4 .btn-wrapper a
+{
+	border: 2px solid;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.elementor .ahura_element_information_box_4 .btn-wrapper:hover a
+{
+	box-sizing: content-box;
+}
+.elementor .ahura_element_information_box_4 .btn-wrapper a i
+{
+	font-size: 14px;
+}
