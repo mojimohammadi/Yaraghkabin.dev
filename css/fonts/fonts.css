@@ -1,4 +1,64 @@
-/*LoadIRANSans Font*/
+/*Load IRANYekan Fonts*/
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../fonts/woff/iranyekanwebbold.woff');
+    	font-display: swap;
+}
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../../fonts/woff/iranyekanwebextrabold.woff');
+        font-display: swap;
+}
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../../fonts/woff/iranyekanwebthin.woff');
+    	font-display: swap;
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../fonts/woff/iranyekanweblight.woff');
+    	font-display: swap;
+}
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../fonts/woff/iranyekanwebregular.woff');
+    	font-display: swap;
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../../fonts/woff/iranyekanwebmedium.woff');
+    	font-display: swap;
+}
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../fonts/woff/iranyekanwebblack.woff');
+    	font-display: swap;
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 950;
+	src: url('../../fonts/woff/iranyekanwebextrablack.woff');
+    	font-display: swap;
+}
+/*End Load IRANYekan Fonts*//*LoadIRANSans Font*/
 @font-face {
 	font-family: IRANSans;
 	font-style: normal;
